@@ -1,4 +1,4 @@
- Q#5 Take n number as input and count how many numbers are positive and negative ( Count ZERO as positive number)
+// Q#5 Take n number as input and count how many numbers are positive and negative ( Count ZERO as positive number)
 
     const myarray= parseInt(prompt("enter a number"));
     for (let i=1; i<=myarray.length; i++);

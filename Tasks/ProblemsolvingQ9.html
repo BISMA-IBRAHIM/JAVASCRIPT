@@ -11,15 +11,12 @@
     let numbers=[];
      function checkPositiveNegativ(number){
      if (number>0){
-        return "Positive number";
-     } else if(number<0){
-        return "Negative number";
-     }else {
-        return "zero ";
-
+        return "biggest number";
+     } else(number<0);{
+        return "smallest number";
      }
     }
-    for (let i=0; i<=10; i++){
+    for (let i=0; i<=4; i++){
         let userInput=prompt("enter a number");
         let number=parseFloat(userInput);
         if(!isNaN (number)){
